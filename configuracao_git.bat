@@ -9,8 +9,8 @@ git init
 echo 2 de 6: FEITO INIT
 
 :: Configurações globais do Git
-git config --global user.name "SEU NOME DE USUÁRIO"
-git config --global user.email "SEU EMAIL"
+git config --global user.name "EduardoFonseca"
+git config --global user.email "eduardo.fonck1308@gmail.com"
 echo 3 de 6: CONFIGURADO GLOBAL
 
 :: Adiciona o repositório remoto (só executa se já não estiver adicionado)
@@ -38,5 +38,6 @@ pause
 
 :: Comando para excluir o próprio script
 start "" cmd /c del "%~f0"
+
 
 
