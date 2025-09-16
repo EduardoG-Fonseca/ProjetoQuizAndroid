@@ -16,7 +16,7 @@ echo 3 de 6: CONFIGURADO GLOBAL
 :: Adiciona o repositório remoto (só executa se já não estiver adicionado)
 git remote get-url origin >nul 2>&1
 if errorlevel 1 (
-    git remote add origin "URL DO PROJETO"
+    git remote add origin "https://github.com/EduardoG-Fonseca/ProjetoQuizAndroid.git"
     echo 4 de 6:  ADICIONADO REMOTE 
 )
 
@@ -38,6 +38,7 @@ pause
 
 :: Comando para excluir o próprio script
 start "" cmd /c del "%~f0"
+
 
 
 
